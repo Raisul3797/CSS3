@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        div{
+            margin: 0 auto;
+            /* display: flex; */
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 3px solid blueviolet;
+            background-color: darkcyan;
+            margin-top: 3px;
+            transition: width 1s, height 1s, transform 1s;
+        }
+        .box:hover{
+            height: 200px;
+            width: 200px;
+            transform: rotate(180deg);  
+        }
+        #box-1{
+            background-color: crimson;
+        }
+        
+        #box-3{
+            background-color: rgb(102, 166, 11);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+        <div class="main">
+            <div class="box" id="box-1">Raisul</div>
+            <div class="box">DIU</div>
+            <div class="box" id="box-3">Dhaka</div>
+        </div>
+    
+    
+</body>
+</html>

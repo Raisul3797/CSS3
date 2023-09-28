@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .main{
+            display: flex;
+        }
+        .container, .sub-box{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;            
+            margin: 0 auto;
+           
+        }
+        .box{
+            margin-top: 50px;
+        }
+        .sub-box{
+            background-color: blueviolet;
+            transform: skew(20deg,20deg);
+            
+        }
+        .container{
+            background-color: brown;
+            
+        }
+        
+        
+
+       
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box container">
+            <div class="sub-box">1</div>
+        </div>
+        <div class="box container">
+            <div class="sub-box">2</div>
+        </div>
+        <div class="box container">
+            <div class="sub-box">3</div>
+        </div>
+    </div>
+    
+</body>
+</html>
